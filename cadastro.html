@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina-cadastro</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Cadastro de Usuário</h1>
+    </div>
+
+    <section class="cadastro">
+        <div class="formulario">
+            <form action="informacoes.php" method="post">
+                <label for="nome">Nome:</label>
+                <input class="repertorio" type="text" id="nome" name="nome" placeholder="Nome" required><br><br>
+
+                <label for="SobreNome">SobreNome:</label>
+                <input class="repertorio" type="text" id="SobreNome" name="SobreNome" placeholder="SobreNome" required><br><br>
+
+                <label for="Email">Email:</label>
+                <input class="repertorio" type="email" id="Email" name="Email" placeholder="Email" required><br><br>
+
+                <label for="Data-de-nascimento">Data de nascimento</label>
+                <input class="repertorio" type="date" id="Data-de-nascimento" name="Data-de-nascimento" required><br><br>
+
+                <input class="botao" type="submit" value="Cadastrar">
+            </form>
+
+        </div>
+    </section>
+</body>
+</html>
