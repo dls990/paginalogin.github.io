@@ -5,8 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $data_nascimento = $_POST["data_nascimento"];
     $email = $_POST["email"];
 
-    // Aqui você pode adicionar a lógica para salvar os dados do participante
-    // em um banco de dados, enviar um e-mail de confirmação, etc.
+   
 
     echo "<!DOCTYPE html>";
     echo "<html lang='pt-br'>";
