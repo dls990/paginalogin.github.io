@@ -3,45 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Participante | Feira Tecnológica 2025</title>
+    <title>Contato | Feira Tecnológica 2025</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Cadastro de Participante</h1>
-            <p class="subtitle">Garanta sua vaga na feira!</p>
+            <h1>Contato</h1>
+            <p class="subtitle">Entre em contato conosco.</p>
             <nav>
                 <ul>
                     <li><a href="index.html">Início</a></li>
                     <li><a href="sobre_curso.html">Sobre o Curso</a></li>
-                    <li><a href="cadastro.html" class="active">Cadastro</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <section class="container content-section">
-        <h2>Preencha seus dados para participar:</h2>
-        <form action="processar_cadastro.php" method="post" class="registration-form">
+        <h2>Fale Conosco</h2>
+        <p>Tem alguma dúvida ou sugestão? Preencha o formulário abaixo:</p>
+        <form action="processar_contato.php" method="post" class="contact-form">
             <div>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
             </div>
             <div>
-                <label for="sobrenome">Sobrenome:</label>
-                <input type="text" id="sobrenome" name="sobrenome" required>
-            </div>
-            <div>
-                <label for="data_nascimento">Data de Nascimento:</label>
-                <input type="date" id="data_nascimento" name="data_nascimento" required>
-            </div>
-            <div>
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" required>
             </div>
-            <button type="submit" class="button primary">Cadastrar</button>
+            <div>
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+            </div>
+            <button type="submit" class="button primary">Enviar Mensagem</button>
         </form>
     </section>
 
